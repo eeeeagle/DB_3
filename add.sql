@@ -1,0 +1,65 @@
+INSERT INTO sector VALUES (1, "IT");
+INSERT INTO sector VALUES (2, "Медицина");
+INSERT INTO sector VALUES (3, "Государственная служба");
+INSERT INTO sector VALUES (4, "Добыча сырья");
+INSERT INTO sector VALUES (5, "Образование");
+INSERT INTO sector VALUES (6, "Искусство");
+INSERT INTO sector VALUES (7, "СМИ");
+INSERT INTO sector VALUES (8, "Производство");
+INSERT INTO sector VALUES (9, "Розничная торговля");
+INSERT INTO sector VALUES (10, "Финансы, бухгалтерия");
+
+INSERT INTO vacancy VALUES (1, "Ведущий радио", 7);
+INSERT INTO vacancy VALUES (2, "Продавец-консультант", 9);
+INSERT INTO vacancy VALUES (3, "Риск-аналитик", 10);
+INSERT INTO vacancy VALUES (4, "Бас-гитарист", 6);
+INSERT INTO vacancy VALUES (5, "Шахтёр", 4);
+INSERT INTO vacancy VALUES (6, "Фармацевт", 2);
+INSERT INTO vacancy VALUES (7, "C++ разработчик", 1);
+INSERT INTO vacancy VALUES (8, "Судебный пристав", 3);
+INSERT INTO vacancy VALUES (9, "Учитель начальных классов", 5);
+INSERT INTO vacancy VALUES (10, "Контролёр производственной линии", 8);
+
+INSERT INTO employee VALUES (1, "Васильев", "Николай", "Алексеевич", "79171853568", 12, 4, 50000);
+INSERT INTO employee VALUES (2, "Антонов", "Владимир", "Петрович", "79271456133", 24, 5, 90000);
+INSERT INTO employee VALUES (3, "Гослинг", "Райан", NULL, "79148562817", 2, 2, 20000);
+INSERT INTO employee VALUES (4, "Корнеплод", "Виктор", "Грибович", "79171853568", 5, 3, 150000);
+INSERT INTO employee VALUES (5, "Осокин", "Даниил", "Дмитриевич", "79876661337", 1, 3, 40000);
+INSERT INTO employee VALUES (6, "Обоев", "Рулон", "Штукарович", "79694472598", 15, 1, 30000);
+INSERT INTO employee VALUES (7, "Помоев", "Ушат", "Аббасович", "9991481583485", 8, 1, 25000);
+INSERT INTO employee VALUES (8, "Иванов", "Иван", "Иванович", "79773251488", 4, 4, 50000);
+INSERT INTO employee VALUES (9, "Шпигель", "Спайк", NULL, "815118742060", 7, 3, 60000);
+INSERT INTO employee VALUES (10, "Уотерс", "Роджер", NULL, "446664201488", 50, 5, 700000);
+
+INSERT INTO employer VALUES (1, "Рога и копыта", "Пупкин", "Василий", "Васильевич", "74951459736");
+INSERT INTO employer VALUES (2, "Вектор", "Крутой", "Крут", "Крутович", "79171853568");
+INSERT INTO employer VALUES (3, "Pink Floyd", "Гилмор", "Дэвид", NULL, "449996661337");
+INSERT INTO employer VALUES (4, "ФССП России", "Важный", "Андрей", "Взяткович", "78461582838");
+INSERT INTO employer VALUES (5, "Школа №666", "Цветущая", "Тамара", "Эдуардовна", "73435881746");
+INSERT INTO employer VALUES (6, "Хлебзавод №1", "Боров", "Кабан", "Александрович", "79995786421");
+INSERT INTO employer VALUES (7, "Радио Маяк", "Круглова", "Василиса", "Вячеславовна", "79271559878");
+INSERT INTO employer VALUES (8, "Valve", "Ньюелл", "Гейб", NULL, "15551281337");
+INSERT INTO employer VALUES (9, "Газпром", "Елисеев", "Кузьма", "Мирославович", "78005551514");
+INSERT INTO employer VALUES (10, "Домашние деньги", "Толстый", "Пётр", "Коллектрович", "78005553535");
+
+INSERT INTO employer_application VALUES (1, 6, 10, "Не пить", 27000, "2023-09-10");
+INSERT INTO employer_application VALUES (2, 1, 2, "Общительность", 45000, "2022-08-24");
+INSERT INTO employer_application VALUES (3, 8, 7, "Знание алгоритмов и структур", 15000, "2023-11-09");
+INSERT INTO employer_application VALUES (4, 5, 9, "Высшее образование", 22000, "2020-05-21");
+INSERT INTO employer_application VALUES (5, 2, 6, "Внимательность и усидчивость", 58000, "2023-06-25");
+INSERT INTO employer_application VALUES (6, 3, 4, "Не быть Роджером Уотерсом", 200000, "1987-02-01");
+INSERT INTO employer_application VALUES (7, 10, 3, "IQ > 150", 120000, "2021-01-08");
+INSERT INTO employer_application VALUES (8, 9, 5, "Выносливость", 30000, "2022-12-24");
+INSERT INTO employer_application VALUES (9, 4, 8, "Высшее образование", 40000, "2022-04-18");
+INSERT INTO employer_application VALUES (10, 7, 1, "Находчивость", 35000, "2018-07-30");
+
+INSERT INTO employee_application VALUES (1, 5, 7, "2025-09-12");
+INSERT INTO employee_application VALUES (2, 1, 4, "2023-11-01");
+INSERT INTO employee_application VALUES (3, 10, 4, "1983-04-30");
+INSERT INTO employee_application VALUES (4, 9, 1, "2000-05-01");
+INSERT INTO employee_application VALUES (5, 4, 6, "2023-02-28");
+INSERT INTO employee_application VALUES (6, 3, 9, "2021-08-21");
+INSERT INTO employee_application VALUES (7, 7, 5, "2023-06-12");
+INSERT INTO employee_application VALUES (8, 8, 5, "2023-07-04");
+INSERT INTO employee_application VALUES (9, 2, 3, "2022-05-16");
+INSERT INTO employee_application VALUES (10, 6, 2, "2021-10-31");
